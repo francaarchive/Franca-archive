@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+export async function getStaticPaths() {
+  const entradas = await getCollection('arquivo', ({ data }) => !data.rascunho);
+  return entradas.map((entrada) => ({
+    params: { slug: entrada.slug },
+    props: { entrada },
+  }));
+}
+
+const { entrada } = Astro.props;
+const { Content } = await entrada.render();
+const d = entrada.data;
+const label = d.eixo === 'quem-inspirou' ? 'Quem Inspirou' : 'Quem Fez';
+const muse = d.eixo === 'quem-inspirou' ? ' muse' : '';
+const dataFmt = d.data.toLocaleDateString('pt-BR', { year: 'numeric', month: 'long', day: 'numeric' });
+---
+<Base title={d.titulo} description={d.subtitulo}>
+  <article class="article">
+    <div class="wrap">
+      <div class="a-meta">
+        <span class={`class${muse}`}>{label}</span>
+        <span class="meta">{d.categoria}</span>
+        {d.periodo && <span class="meta">{d.periodo}</span>}
+      </div>
+      <h1 class="title">{d.titulo}</h1>
+      {d.subtitulo && <p class="standfirst">{d.subtitulo}</p>}
+      <div class="byline meta">
+        Por Franca Archive · {dataFmt}{d.leitura ? ` · Leitura de ${d.leitura}` : ''}
+      </div>
+      <div class="prose">
+        <Content />
+      </div>
+      <a class="back-link" href="/">← Voltar ao arquivo</a>
+    </div>
+  </article>
+</Base>

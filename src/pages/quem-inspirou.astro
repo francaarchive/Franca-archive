@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import Entry from '../components/Entry.astro';
+
+const entradas = (await getCollection('arquivo', ({ data }) => !data.rascunho && data.eixo === 'quem-inspirou'))
+  .sort((a, b) => b.data.valueOf() - a.data.valueOf());
+const fmtCat = (n) => 'FA·' + String(n).padStart(3, '0');
+---
+<Base title="Quem Inspirou" description="As musas, mecenas e donos cujas vidas viraram forma.">
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow meta">Eixo editorial</div>
+      <h1>quem inspirou</h1>
+      <p class="lede">As musas, mecenas e proprietários — as vidas que encomendaram,
+      vestiram e deram sentido ao objeto, e que muitas vezes a história esqueceu.</p>
+    </div>
+  </section>
+  <section>
+    <div class="wrap">
+      <div class="sec-head"><h2>Musas &amp; Mecenas</h2><div class="rule"></div>
+        <div class="meta">{entradas.length} {entradas.length === 1 ? 'entrada' : 'entradas'}</div></div>
+      <div class="ledger">
+        {entradas.map((e, i) => (
+          <Entry href={`/arquivo/${e.slug}`} cat={fmtCat(entradas.length - i)}
+            eixo={e.data.eixo} periodo={e.data.periodo}
+            titulo={e.data.titulo} subtitulo={e.data.subtitulo} />
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>

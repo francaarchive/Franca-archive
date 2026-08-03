@@ -1,0 +1,49 @@
+---
+const { title, description } = Astro.props;
+const pageTitle = title ? `${title} — Franca Archive` : 'Franca Archive — design é biografia';
+const pageDesc = description ?? 'Arquivo de história das artes e do design. Toda peça guarda duas histórias: a de quem fez e a de quem inspirou.';
+---
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDesc} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Spectral:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/global.css" />
+</head>
+<body>
+  <header class="mast">
+    <div class="wrap">
+      <a class="wordmark" href="/">Franca <span>Archive</span></a>
+      <nav class="site-nav">
+        <a href="/">O Arquivo</a>
+        <a href="/quem-fez">Quem Fez</a>
+        <a href="/quem-inspirou">Quem Inspirou</a>
+        <a href="/sobre">Sobre</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <slot />
+  </main>
+
+  <footer class="site">
+    <div class="wrap">
+      <div>
+        <div class="fm">Franca <span>Archive</span></div>
+        <div class="meta" style="margin-top:8px">design é biografia</div>
+      </div>
+      <div class="meta">
+        <a href="mailto:info@francaarchive.com">info@francaarchive.com</a>
+        <a href="https://instagram.com/francaarchive">Instagram · @francaarchive</a>
+        <a href="#">YouTube · Franca Archive</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

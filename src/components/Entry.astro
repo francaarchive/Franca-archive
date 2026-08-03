@@ -1,0 +1,16 @@
+---
+const { href, cat, eixo, periodo, titulo, subtitulo } = Astro.props;
+const label = eixo === 'quem-inspirou' ? 'Quem Inspirou' : 'Quem Fez';
+const muse = eixo === 'quem-inspirou' ? ' muse' : '';
+---
+<a class="entry" href={href}>
+  <div class="col-meta">
+    <span class="cat">{cat}</span>
+    <span class={`class${muse}`}>{label}</span>
+    {periodo && <span class="date">{periodo}</span>}
+  </div>
+  <div>
+    <h3>{titulo}</h3>
+    {subtitulo && <p class="sub">{subtitulo}</p>}
+  </div>
+</a>
