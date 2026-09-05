@@ -8,16 +8,6 @@ periodo: "1830–1902"
 leitura: "8 min"
 rascunho: false
 ---
-titulo: "O ourives que ouvia: Boucheron e a criatividade na era da máquina"
-descricao: "Como a era industrial mudou quem encomendava joias, e como Frédéric Boucheron transformou a escuta do cliente em autoria."
-data: 2026-09-02
-catalogo: "FA·001"
-eixo: "Quem Fez"
-serie: "Quem Fez"
-tags: ["Boucheron", "Belle Époque", "Place Vendôme", "joalheria", "século XIX", "design é biografia"]
-fonte: "Vincent Meylan, Boucheron: The Secret Archives (Antique Collectors' Club, 2011)"
-rascunho: false
----
 
 Há um mito confortável sobre a segunda metade do século XIX: o de que a segunda Revolução Industrial, a do aço, da eletricidade e da produção em massa, teria matado o artesanato. A máquina chegou, o gesto da mão perdeu valor, o ornamento virou produto de série. É uma leitura que faz sentido em Manchester e em algumas fábricas de Birmingham. Faz muito menos sentido em Paris, na rua onde Frédéric Boucheron abriu sua primeira loja, em 1858.
 
