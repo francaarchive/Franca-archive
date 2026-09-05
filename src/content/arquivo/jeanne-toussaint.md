@@ -6,7 +6,7 @@ categoria: "Joalheria · Século XX"
 data: 2026-06-18
 periodo: "1887–1976"
 leitura: "5 min"
-rascunho: false
+rascunho: true
 ---
 
 Louis Cartier a chamava de *La Panthère*. O apelido, que começou como brincadeira sobre seu temperamento, viraria o emblema mais reconhecível de toda a casa Cartier — e Jeanne Toussaint, a diretora de alta joalheria que quase ninguém fora do ateliê conhecia, seria a razão.
