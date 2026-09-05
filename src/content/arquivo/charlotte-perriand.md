@@ -6,7 +6,7 @@ categoria: "Móveis · Século XX"
 data: 2026-06-20
 periodo: "1903–1999"
 leitura: "6 min"
-rascunho: false
+rascunho: true
 ---
 
 Em 1927, uma jovem de 24 anos bateu à porta do ateliê de Le Corbusier pedindo emprego. A resposta foi seca: "Aqui não se bordam almofadas." Poucos meses depois, ele a contratava — e três das cadeiras que sairiam daquele estúdio entrariam para a história do design moderno.
