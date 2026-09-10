@@ -24,7 +24,7 @@ Richard Buckminster Fuller chamava aquilo de experimento. A hipótese, formulada
 
 Vale medir a distância que essa vida atravessou, porque ela explica o resto.
 
-Fuller nasceu em julho de 1895. Foi um ano notável mesmo para quem não estava prestando atenção: Röntgen descobriu os raios X, os irmãos Lumière fizeram a primeira exibição pública de cinema, Marconi transmitiu o primeiro sinal de rádio. Nada disso havia chegado a Milton, Massachusetts, onde o transporte era o cavalo, a casa era aquecida a carvão e o voo humano ainda levaria oito anos para acontecer. A população do planeta era de cerca de um bilhão e seiscentos milhões de pessoas.
+Fuller nasceu em 12 de julho de 1895. Foi um ano notável mesmo para quem não estava prestando atenção: Röntgen descobriu os raios X, os irmãos Lumière fizeram a primeira exibição pública de cinema, Marconi transmitiu o primeiro sinal de rádio. Nada disso havia chegado a Milton, Massachusetts, onde o transporte era o cavalo, a casa era aquecida a carvão e o voo humano ainda levaria oito anos para acontecer. A população do planeta era de cerca de um bilhão e seiscentos milhões de pessoas.
 
 Ele morreu em julho de 1983. Seis meses antes, em 1º de janeiro daquele ano, a ARPANET havia migrado para o protocolo TCP/IP — a data que se costuma dar como aniversário da internet. Catorze anos antes disso, ele havia assistido dois homens caminharem na Lua. A população do planeta tinha quase triplicado.
 
@@ -264,8 +264,9 @@ Não é um arquivo. É a maior obra dele.
 
 *Este ensaio foi escrito a partir de leitura de* Inventor of the Future: The Visionary Life of Buckminster Fuller*, de Alec Nevala-Lee (Dey Street Books, 2022), a primeira biografia de Fuller construída com acesso pleno ao Chronofile e disposição para verificar suas histórias contra ele. A seção brasileira apoia-se na pesquisa sobre o Hotel Tropical de Manaus desenvolvida no acervo Sergio Bernardes, sob guarda do Núcleo de Pesquisa e Documentação da Faculdade de Arquitetura da UFRJ. As interpretações e a organização do argumento são do Franca Archive.
 
-Este arquivo foi em homenagem póstuma so meu irmão André França, engenheiro elétrico, civil, especialista em segurança do trabalho, professor em escola pública de Segundo grau, carpinteiro nas horas vagas e pai da Linda e Bela, tio da Giovana e Maria Elisa que adoraria ouvir essas histórias do Bucky. 
-E para todos os cientistas que procuram a cura do cancêr:
+Este arquivo foi em homenagem póstuma ao meu irmão André França,que faleceu hoje, e era engenheiro eletricista (escolheu essa profissão ainda criança), engenheiro civil, especialista em segurança do trabalho, professor em escola pública de segundo grau, carpinteiro nas horas vagas e pai da Linda e Bela, tio da Giovana e Maria Elisa e que adoraria ouvir essas histórias do Bucky. 
+E para todos os cientistas que pesquisam a cura do cancêr:
 
 "A natureza é um sistema totalmente eficiente e autogerador. Se descobrirmos as leis que regem esse sistema e vivermos sinergicamente dentro delas, a sustentabilidade virá e a humanidade será um sucesso.”
+
 Richard Buckminster Fuller*
