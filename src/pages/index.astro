@@ -4,7 +4,7 @@ import Base from '../layouts/Base.astro';
 import Entry from '../components/Entry.astro';
 
 const entradas = (await getCollection('arquivo', ({ data }) => !data.rascunho))
-  .sort((a, b) => b.data.valueOf() - a.data.valueOf());
+  .sort((a, b) => b.data.data.valueOf() - a.data.data.valueOf());
 
 const fmtCat = (n) => 'FA·' + String(n).padStart(3, '0');
 ---
