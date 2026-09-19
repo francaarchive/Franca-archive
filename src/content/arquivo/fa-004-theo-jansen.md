@@ -6,7 +6,7 @@ categoria: "Design e Engenharia"
 data: 2026-09-19
 periodo: "1948 – presente"
 leitura: "10 min"
-rascunho: true
+rascunho: false
 ---
 
 Há um trecho de praia em Scheveningen, no litoral holandês, onde o vento sopra quase sem descanso. É ali, sobre a areia molhada, que criaturas altas como cavalos avançam de lado, movendo dezenas de pernas em sequência, sem motor, sem bateria, sem controle remoto. Quem as vê pela primeira vez costuma recuar um passo. Elas não parecem máquinas empurradas pelo vento. Parecem animais decidindo para onde ir.
