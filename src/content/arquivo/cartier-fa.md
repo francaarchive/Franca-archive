@@ -1,6 +1,6 @@
 ---
 titulo: "Os três irmãos que dividiram o mundo"
-subtitulo: "Como Louis, Pierre e Jacques Cartier transformaram uma oficina parisiense na primeira marca de luxo verdadeiramente global"
+subtitulo: "Como Louis, Pierre e Jacques Cartier transformaram uma oficina parisiense na primeira marca de luxo verdadeiramente global."
 eixo: quem-fez
 categoria: "Maisons"
 data: 2026-09-23
