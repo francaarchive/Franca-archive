@@ -1,6 +1,6 @@
 ---
 titulo: "O homem que inventou uma espécie"
-subtitulo: "Theo Jansen, os Strandbeests e a engenharia como forma de vida"
+subtitulo: "Theo Jansen, os Strandbeests e a engenharia como forma de vida."
 eixo: "quem-fez"
 categoria: "Design e Engenharia"
 data: 2026-09-19
