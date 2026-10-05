@@ -6,7 +6,7 @@ categoria: "Cor e design"
 data: 2026-10-05
 periodo: "Japão, eras Taishō e Shōwa (1912–1967)"
 leitura: "8 min"
-rascunho: true
+rascunho: false
 ---
 
 Há livros que se leem e livros que se folheiam. O pequeno volume de capa kraft que hoje circula entre designers, ilustradores e estilistas do mundo inteiro pertence ao segundo grupo. Na capa, nada de imagens: apenas blocos de cor, um marrom quase ameixa, um verde de musgo, um vermelho de laca, um ocre que lembra madeira envelhecida. E o título, em japonês e em inglês: *配色事典*, *A Dictionary of Color Combinations*. Logo abaixo, uma frase discreta: *notas de cor das eras Taishō e Shōwa*.
